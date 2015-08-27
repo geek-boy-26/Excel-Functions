@@ -31,13 +31,13 @@ public class WriteExcel
 		
 		//Add data to sheet
 		Map<String, Object[]> data = new TreeMap<String, Object[]>();
-		data.put("1",new Object[] {"ID","NAME","LASTNAME"});
-		data.put("2",new Object[] {1,"kabir","khan"});
-		data.put("3",new Object[] {2,"geetesh","chauhan"});
-		data.put("4",new Object[] {3,"Sachin","Mahajan"});
-		data.put("5",new Object[] {4,"Anil","Goplani"});
-		data.put("6",new Object[] {5,"Bhavesh","parmar"});
-		data.put("7",new Object[] {6,"Mahesh","Malsatthar"});
+		data.put("1",new Object[] {"ID","NAME","LASTNAME","E-mail"});
+		data.put("2",new Object[] {1,"kabir","khan","kabir.khan@gmail.com"});
+		data.put("3",new Object[] {2,"geetesh","chauhan","geet.chauhan@gmail.com"});
+		data.put("4",new Object[] {3,"Sachin","Mahajan","sachin.hacker@gmail.com"});
+		data.put("5",new Object[] {4,"Anil","Goplani","anil.gops@gmail.com"});
+		data.put("6",new Object[] {5,"Bhavesh","parmar","bhav.par@gmail.com"});
+		data.put("7",new Object[] {6,"Mahesh","Malsatthar","Mahesh.no17@gmail.com"});
 		
 		//Iterate over data and write to sheet
 		Set<String> keyset = data.keySet();
