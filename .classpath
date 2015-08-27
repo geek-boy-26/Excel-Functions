@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_71"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/poi-examples-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/poi-excelant-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/poi-scratchpad-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="D:/Aakar/Selenium/Jelly_Bean/Jars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
