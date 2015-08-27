@@ -1,10 +1,7 @@
-//Apache poi Read Excel
-package ReadExcel;
+package Delete_Excel_Rows;
 
 import java.io.File;
 import java.io.FileInputStream;
-
-
 import java.util.Iterator;
 
 import org.apache.poi.ss.usermodel.Cell;
@@ -12,13 +9,15 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
+import com.sun.org.apache.bcel.internal.generic.GETSTATIC;
 
+import ReadExcel.ReadExcel;
 
-public class ReadExcel
-{
-	public static void main(String[] args)
-	
+public class delExcel {
+
+	public static void main(String[] args) 
 	{
+		// TODO Auto-generated method stub
 		try
 		{
 			FileInputStream file = new FileInputStream(new File("Employee_Details.xlsx"));
@@ -50,6 +49,10 @@ public class ReadExcel
 						break;
 					case Cell.CELL_TYPE_STRING:
 						System.out.println(cell.getStringCellValue()+ "\t");
+						if(cell.getStringCellValue() == "kabir")
+						{
+							System.out.println("True"+ ":::");
+						}
 						break;
 					}
 				}
@@ -65,6 +68,7 @@ public class ReadExcel
 			e.printStackTrace();
 		}
 	
+		
 		
 		
 	}
